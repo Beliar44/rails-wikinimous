@@ -1,0 +1,15 @@
+<div>
+  <%= link_to "back", articles_path %>
+</div>
+<div>
+  <%= link_to  "edit your article", edit_article_path  %>
+</div>
+
+<h1>Your article</h1>
+
+<ul>
+
+    <h1>  <%= @article.title %>  </h1>
+    <h3> <%= @article.content %>  </h3>
+
+</ul>
